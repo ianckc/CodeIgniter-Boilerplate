@@ -14,7 +14,7 @@
 |
 */
 
-$config['script_dir'] = 'assets/scripts/';
+$config['script_dir'] = 'assets/javascript/';
 
 
 /*
@@ -26,7 +26,7 @@ $config['script_dir'] = 'assets/scripts/';
 |
 */
 
-$config['style_dir'] = 'assets/styles/';
+$config['style_dir'] = 'assets/css/';
 
 /*
 |--------------------------------------------------------------------------

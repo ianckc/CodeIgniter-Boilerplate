@@ -38,7 +38,7 @@ $config['style_dir'] = 'assets/css/';
 |
 */
 
-$config['cache_dir'] = 'assets/cache/';
+$config['cache_dir'] = 'application/cache/';
 
 
 
@@ -72,7 +72,7 @@ $config['cache_dir'] = 'assets/cache/';
 |
 */
 
-$config['dev'] = FALSE;
+$config['dev'] = TRUE;
 
 
 /*

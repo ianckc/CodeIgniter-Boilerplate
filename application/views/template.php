@@ -39,6 +39,8 @@ URL: http://stuffandnonsense.co.uk/projects/320andup
 <link rel="stylesheet" media="only screen and (min-width: 1382px)" href="assets/css/1382.css?v=1">
 <!-- For Retina displays -->
 <link rel="stylesheet" media="only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2)" href="assets/css/2x.css?v=1">
+<!-- Display css loaded through carabiner --> 
+<?php $this->carabiner->display('css'); ?>
 
 <!-- JavaScript at bottom except for Modernizr -->
 <script src="assets/javascript/libs/modernizr-1.7.min.js"></script>
@@ -92,6 +94,9 @@ URL: http://stuffandnonsense.co.uk/projects/320andup
 <!-- Scripts -->
 <script src="assets/javascript/plugins.js"></script>
 <script src="assets/javascript/script.js"></script>
+
+<!-- Display javascript loaded through carabiner --> 
+<?php $this->carabiner->display('js'); ?>
 
 <!--[if (lt IE 9) & (!IEMobile)]>
 <script src="assets/javascript/libs/DOMAssistantCompressed-2.8.js"></script>
